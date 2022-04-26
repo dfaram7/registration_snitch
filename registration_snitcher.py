@@ -19,12 +19,11 @@ import os
 
 path = os.path.abspath(os.getcwd())
 
-api_key = "a92e1943-c920-40fd-b2c3-18fb549b521c"
-
-consumer_key='1PTBXSet2uW3fMcdXgyMIvnty'
-consumer_secret_key='dgVyxMZvrnzJV1NNbhWlX4p74h2Qvs72iuEhUDlxobu8XoS1OU'
-access_token='1516407763919900677-vAMyx53HzSz8RZ1nt5KJikxrAhSxey'
-access_token_secret='koWQWvkThbBxEFMLCrblnKMHCha54M9uZctDFsu0ERjOy'
+api_key = ""
+consumer_key=''
+consumer_secret_key=''
+access_token=''
+access_token_secret=''
 
 auth=tweepy.OAuthHandler(consumer_key,consumer_secret_key)
 auth.set_access_token(access_token,access_token_secret)
